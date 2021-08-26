@@ -815,6 +815,8 @@ body._lock {
 
 .checkbox input {
   margin: 0;
+  height: 13px;
+  align-items: center;
 }
 
 .checkbox__label {
