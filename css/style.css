@@ -684,6 +684,12 @@ body._lock {
   left: 45%;
 }
 
+.swiper__slider,
+.text__slider,
+.img__slider {
+  overflow: hidden;
+}
+
 .team {
   padding-top: 100px;
   padding-bottom: 90px;
@@ -750,6 +756,10 @@ body._lock {
   color: #90a4ae;
   font-size: 15px;
   transition: all .5s ease;
+}
+
+.text__slider {
+  position: relative;
 }
 
 .contacts {
